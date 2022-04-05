@@ -49,7 +49,7 @@ e) Since the solid line will have more pixels highlighted the segregation is eas
 f) The dashed line pixels are then colored red, and the solid ones are painted
 green as required.
 
-![Comparison](https://github.com/Atharva-Paralikar/histogram-eq/blob/master/docs/comparison.gif)
+![Segregation of dashed and solid Line](https://github.com/Atharva-Paralikar/Lane-detection-and-turn-prediction/blob/main/docs/lane_segregation.gif)
 
 ## Turn Prediction
 
@@ -71,10 +71,11 @@ f) The curves can be seen in the output image in real time.
 
 g) The radius at certain points on the yellow and white curves is calculate using
 the formula,
+![](https://github.com/Atharva-Paralikar/Lane-detection-and-turn-prediction/blob/main/docs/radius.png)
 
 h) The turn will on the side of the curve with lesser radius of curvature.
 
-![Comparison](https://github.com/Atharva-Paralikar/histogram-eq/blob/master/docs/comparison.gif)
+![Turn Prediction](https://github.com/Atharva-Paralikar/Lane-detection-and-turn-prediction/blob/main/docs/turn_predict.gif)
 
 ## Steps to Run Code
 
@@ -84,7 +85,7 @@ git clone --recursive https://github.com/Atharva-Paralikar/Lane-detection-and-tu
 ```
 2. Source the repository 
 ```
-cd ~/histogram-eq
+cd ~/Lane-detection-and-turn-prediction
 ```
 3. Run the script 
 ```
